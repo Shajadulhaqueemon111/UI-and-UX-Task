@@ -1,0 +1,63 @@
+.nav-1{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav-2{
+    display: flex;
+    gap: 15px;
+}
+
+
+/* Main section style */
+
+.color-1{
+    color: #DF6951;
+}
+
+.main-1{
+    display: flex;
+    justify-content: space-around;
+    left: 148px;
+}
+
+.blog-1{
+
+size: 84px;
+
+}
+.img-size{
+    width: 700px;
+height: 764px;
+top: 105px;
+left: 565px;
+}
+
+.btn-style-2{
+   background-color: #F1A501; 
+   color: #FFFFFF;
+   border-radius: 10px;
+   
+}
+
+.banner{
+    margin-top: 50px;
+}
+.paly-btn{
+    display: flex;
+}
+
+.section-style{
+    display: flex;
+    gap: 5px;
+}
+
+.image-size-1{
+    width: 52px;
+    height: 52px;
+    top: 696px;
+    left: 362px;
+   
+     
+}
