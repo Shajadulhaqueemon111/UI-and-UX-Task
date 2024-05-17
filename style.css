@@ -353,6 +353,50 @@ opacity: 0px;
     gap: 50px;
 }
 
+.our-app{
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up)  */
+@media  screen and (max-width: 1200px) {
+    .nav-1 {
+        flex-direction: column;
+    }
+
+    .main-1 {
+        flex-direction: column;
+    }
+
+   
+
+    .section-style {
+        flex-direction: column;
+    }
+
+    .Travelling-2 {
+        flex-direction: column;
+    }
+
+    .box-size {
+        flex-direction: column;
+    }
+    .card-direction {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        flex-direction: column;
+    }
+
+}
+
+
 @media screen and (max-width: 768px) {
     .nav-1 {
         flex-direction: column;
@@ -418,3 +462,4 @@ opacity: 0px;
         flex-direction: column;
     }
 }
+
