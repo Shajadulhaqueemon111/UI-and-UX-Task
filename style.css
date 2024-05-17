@@ -10,6 +10,17 @@
     gap: 15px;
 }
 
+.btn-style-1{
+    width: 102px;
+height: 40px;
+top: 47px;
+left: 1119px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
 
 /* Main section style */
 
@@ -117,7 +128,7 @@
 
 .description-1 {
     align-items: center;
-    margin-top: 200px;
+    margin-top: 160px;
     justify-content: center;
 
     text-align: center;
@@ -178,6 +189,7 @@
     font-size: 36px;
     font-weight: bold;
 }
+
 
 .font-style {
     font-size: bold;
