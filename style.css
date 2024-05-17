@@ -14,22 +14,25 @@
 
 .color-1{
     color: #DF6951;
+    font-size: 20px;
 }
 
 .main-1{
     display: flex;
-    justify-content: space-around;
-    left: 148px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+ 
 }
 
 .blog-1{
 
-size: 84px;
+font-size: 40px;
 
 }
 .img-size{
-    width: 700px;
-height: 764px;
+width: 400px;
+height: 756px;
 top: 105px;
 left: 565px;
 }
@@ -37,7 +40,15 @@ left: 565px;
 .btn-style-2{
    background-color: #F1A501; 
    color: #FFFFFF;
-   border-radius: 10px;
+   
+   width: 170px;
+height: 60px;
+top: 692px;
+left: 148px;
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+
    
 }
 
@@ -48,16 +59,107 @@ left: 565px;
     display: flex;
 }
 
+.demo{
+    margin-bottom: 10px;
+}
+
 .section-style{
     display: flex;
     gap: 5px;
 }
 
 .image-size-1{
-    width: 52px;
-    height: 52px;
-    top: 696px;
-    left: 362px;
-   
+    width: 54px;
+    height: 54px;
+    margin-top: 8px;
+    left: 362px;  
      
+}
+.box-size-1{
+    width: 400px;
+    height: 535px;
+    top: 217px;
+    left: 148px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    padding: 10px;
+     
+}
+.box-size-2{
+    width: 350px;
+    height: 764px;
+    top: 105px;
+    left: 565px;
+    gap: 0px;
+    opacity: 0px;
+     
+}
+
+.Travelling-1{
+    
+    width: 120px;
+    height: 100px;
+    margin-top: 
+    180px;
+    
+    gap: 0px;
+    opacity: 0px;
+    rotate: 33.83;
+    
+
+}
+
+.Travelling-2{
+    display: flex;
+    width: 110px;
+    height: 53.79px;
+    top: 249.83px;
+    left: 720.29px;
+    
+    rotate: 33.83 deg; 
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+ .nav-1{
+    flex-direction: column;
+ }
+ .nav-2{
+    flex-direction: column;
+ }
+ .main-1{
+    flex-direction: column;
+ }
+ .section-style{
+    flex-direction: column;
+ }
+ .Travelling-2{
+    flex-direction: column;
+ }
+ .box-size{
+    flex-direction: column;
+ }
+   
+}
+
+/* Media query for screens smaller than 480px */
+@media screen and (max-width: 480px) {
+    .nav-1{
+        flex-direction: column;
+     }
+     .main-1{
+        flex-direction: column;
+     }
+     .section-style{
+        flex-direction: column;
+     }
+     .Travelling-2{
+        flex-direction: column;
+     }
+     .box-size{
+        flex-direction: column;
+     }
+   
 }
