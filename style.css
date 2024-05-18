@@ -259,14 +259,14 @@ opacity: 0px;
 
 .card-6 {
     display: flex;
-    width: 258px;
-    height: 160px;
+    width: 250px;
+    height: 150px;
     gap: 20px;
     border-radius: 18px 0px 0px 0px;
     padding: 4px;
     background-color: #f0f0f0;
-    margin-left: 190px;
-    margin-top: -180px;
+    margin-left: 140px;
+    margin-top: -200px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     position: absolute;
 
@@ -356,11 +356,6 @@ opacity: 0px;
 .our-app{
     text-align: center;
 }
-
-
-
-
-
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up)  */
